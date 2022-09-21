@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'EBS Hunminjeongeum L';
+    src: url('EBSHunminjeongeumL.eot');
+    src: url('EBSHunminjeongeumL.eot?#iefix') format('embedded-opentype'),
+        url('EBSHunminjeongeumL.woff2') format('woff2'),
+        url('EBSHunminjeongeumL.woff') format('woff'),
+        url('EBSHunminjeongeumL.svg#EBSHunminjeongeumL') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EBS Hunminjeongeum SB';
+    src: url('EBSHunminjeongeumSB.eot');
+    src: url('EBSHunminjeongeumSB.eot?#iefix') format('embedded-opentype'),
+        url('EBSHunminjeongeumSB.woff2') format('woff2'),
+        url('EBSHunminjeongeumSB.woff') format('woff'),
+        url('EBSHunminjeongeumSB.svg#EBSHunminjeongeumSB') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EBS Hunminjeongeum R';
+    src: url('EBSHunminjeongeumR.eot');
+    src: url('EBSHunminjeongeumR.eot?#iefix') format('embedded-opentype'),
+        url('EBSHunminjeongeumR.woff2') format('woff2'),
+        url('EBSHunminjeongeumR.woff') format('woff'),
+        url('EBSHunminjeongeumR.svg#EBSHunminjeongeumR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareRoundR';
+    src: url('NanumSquareRoundR.eot');
+    src: url('NanumSquareRoundR.eot?#iefix') format('embedded-opentype'),
+        url('NanumSquareRoundR.woff2') format('woff2'),
+        url('NanumSquareRoundR.woff') format('woff'),
+        url('NanumSquareRoundR.svg#NanumSquareRoundR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
