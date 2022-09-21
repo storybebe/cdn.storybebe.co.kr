@@ -1,0 +1,256 @@
+/*Admin CSS File*/
+
+/**************************************************************************/
+
+
+
+.flexbox { display: flex; }
+.flexbox .stretch { flex: 1; }
+.flexbox .normal { flex: 0; margin: 0 0 0 1rem; }
+.flexbox div input { padding: .5em 1em; width: 100%; }
+.flexbox div button { padding: .5em 1em; white-space: nowrap; }
+.unvisible { display:none; }
+#gotosearch { display:none; }
+.ui-datepicker{ font-size: 15px; width: 90%; height:auto;}
+.ui-datepicker select.ui-datepicker-month{ width:90%; font-size: 15px; height:auto;}
+.ui-datepicker select.ui-datepicker-year{ width:90%; font-size: 15px; height:auto;}
+
+body, table, div, p {font-family:'Nanum Gothic';}
+
+
+
+#body
+{
+        width:80%;
+        height:auto;
+        margin-left:10%;
+        margin-right:10%;
+}
+
+#main
+{
+text-align:center !important;
+
+}
+#Reservation_Header
+{
+margin-top:50px !important;
+text-align:center !important;
+}
+
+.drawsvg,svg {width: 100%; height: 300px; }
+
+
+ #fade-text { font-family: 'Alex Brush', cursive; font-size: 4em}
+ @import url(https://fonts.googleapis.com/css?family=Alex+Brush);
+
+
+
+#top-right{
+        width:50%;
+        margin-left:72%;
+        position:fixed;
+
+        }
+
+
+
+#canreserv
+{
+border-collapse: collapse;
+width: 100%;
+text-align:center;
+}
+
+#nonereserv
+{
+border-collapse: collapse;
+width: 100%;
+text-align:center;
+}
+
+.navertalk
+{
+    -webkit-appearance:none !important;
+   border-radius: 0px  !important;
+    border-width: 1px !important;
+     border-style: solid !important;
+     background: #ffffff !important;
+     color: #333 !important;
+     transition: all .2s !important;
+     padding: 11px 23px !important;
+     line-height: 14px !important;
+     font-size:15px  !important;
+     transition: all .2s !important;
+     font-weight: 700 !important;
+     letter-spacing: 1px !important;
+     cursor:pointer !important;
+     margin-bottom:1px !important;
+    display:inline-block !important;
+        width:20% !important;
+        margin-top:5% !important;
+        margin-bottom:8% !important;
+
+}
+
+
+.canreserv_top
+{
+    -webkit-appearance:none !important;
+   border-radius: 0px  !important;
+    border-width: 1px !important;
+     border-style: solid !important;
+     background: #ffffff !important;
+     color: #333 !important;
+     transition: all .2s !important;
+     padding: 11px 23px !important;
+     line-height: 14px !important;
+     font-size:15px  !important;
+     transition: all .2s !important;
+     font-weight: 700 !important;
+     letter-spacing: 1px !important;
+     cursor:pointer !important;
+     margin-bottom:1px !important;
+    display:inline-block !important;
+        width:50% !important;
+        margin-top:5% !important;
+        margin-bottom:8% !important;
+
+}
+
+.nonereserv_top
+{
+    -webkit-appearance:none !important;
+   border-radius: 0px  !important;
+    border-width: 1px !important;
+     border-style: solid !important;
+     background: #ffffff !important;
+     color: #333 !important;
+     transition: all .2s !important;
+     padding: 11px 23px !important;
+     line-height: 14px !important;
+     font-size:15px  !important;
+     transition: all .2s !important;
+     font-weight: 700 !important;
+     letter-spacing: 1px !important;
+     cursor:pointer !important;
+     margin-bottom:1px !important;
+    display:inline-block !important;
+        width:50% !important;
+        margin-top:5% !important;
+        margin-bottom:8% !important;
+
+}
+
+.canreserv_count
+{
+    -webkit-appearance:none !important;
+   border-radius: 0px  !important;
+    border-width: 1px !important;
+     border-style: none !important;
+     background: #ffffff !important;
+     color: #333 !important;
+     transition: all .2s !important;
+	
+     line-height: 0px !important;
+     font-size:15px  !important;
+     transition: all .2s !important;
+     font-weight: 700 !important;
+     letter-spacing: 1px !important;
+     cursor:pointer !important;
+     margin-bottom:100px !important;
+    display:inline-block !important;
+        margin-right:17px !important;
+        margin-left: 17px !important;
+        width:432px !important;
+        height:432px !important;
+}
+
+
+.nonereserv_count
+{
+
+      -webkit-appearance:none !important;
+   border-radius: 0px  !important;
+    border-width: 0px !important;
+     border-style: none !important;
+     background: #d14242 !important;
+     color: #ffffff !important;
+     transition: all .2s !important;
+
+     line-height: 0px !important;
+     font-size:15px  !important;
+     transition: all .2s !important;
+     font-weight: 700 !important;
+     letter-spacing: 1px !important;
+     cursor:pointer !important;
+         margin-bottom:100px !important;
+    display:inline-block !important;
+        width:432px !important;
+        margin-right:17px !important;
+        margin-left:17px !important;
+
+        height:432px !important;
+}
+
+.ui-datepicker {
+        font-size:22px !important;
+        width: 50% !important;
+        height: auto !important;
+}
+
+#post_at {
+	border-width:3px !important;
+}
+@media( max-width: 1080px ) {
+        #body
+        {
+                width:100% !important;
+                margin-left:0px !important;
+                margin-right:0px !important;
+        }
+
+        #Reservation_Header {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        border-top: none;
+        border-bottom: none;
+        margin-left:10% !important;
+        margin-right:10% !important
+        }
+        .stretch
+        {
+                margin-left:10% !important;
+                margin-right:10% !important;
+        }
+
+        #canreserv {
+                display: block;
+                border-bottom: 1px solid #ddd;
+                border-top: none;
+                border-bottom: none;
+				text-align:center;
+        }
+
+
+        #nonereserv {
+                display: block;
+                border-bottom: 1px solid #ddd;
+                border-top: none;
+                border-bottom: none;
+				text-align:center;
+        }
+
+        #top-right{
+        width:100%;
+        margin-left:72%;
+        position:fixed;
+
+        }
+
+
+
+
+
+}
+
